@@ -1,0 +1,48 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\jniki\\source\\repos\\ImageMatcher\\ImageMatcher\\ImageMatcher\\ImageMatcher.csproj",
+    "projectName": "ImageMatcher",
+    "projectPath": "C:\\Users\\jniki\\source\\repos\\ImageMatcher\\ImageMatcher\\ImageMatcher\\ImageMatcher.csproj",
+    "outputPath": "C:\\Users\\jniki\\source\\repos\\ImageMatcher\\ImageMatcher\\ImageMatcher\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp3.0"
+    ],
+    "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "projectReferences": {
+          "C:\\Users\\jniki\\source\\repos\\ImageMatcher\\ImageMatcher\\ImageMatcher.Lib\\ImageMatcher.Lib.csproj": {
+            "projectPath": "C:\\Users\\jniki\\source\\repos\\ImageMatcher\\ImageMatcher\\ImageMatcher.Lib\\ImageMatcher.Lib.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.0": {
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
