@@ -4,15 +4,17 @@ using Colourful.Difference;
 
 namespace ImageMatcher.Lib
 {
-    public class ColorDifferenceAnalyzer
+    public static class ColorDifferenceAnalyzer
     {
-        public void ColorDiffTest()
+        private static readonly CIEDE2000ColorDifference Ciede2000ColorDifference;
+        static ColorDifferenceAnalyzer()
         {
-//            var color1 = new LabColor(l1, a1, b1);
-//            var color2 = new LabColor(l2, a2, b2);
-//
-//            double deltaE = new CIEDE2000ColorDifference().ComputeDifference(color1, color2);
-//            
+            Ciede2000ColorDifference = new CIEDE2000ColorDifference();
+        }
+        public static double ComputeColorDifference(LabColor color1, LabColor color2)
+        {
+            return Ciede2000ColorDifference.ComputeDifference(color1, color2);
+            
         }
     }
 }

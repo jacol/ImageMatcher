@@ -2,7 +2,7 @@
 
 namespace ImageMatcher.Lib
 {
-    public class ImageReader
+    public class ImageReader : IImageReader
     {
         public ImageLabColorMatrix ReadColorMatrix(string filePath)
         {
