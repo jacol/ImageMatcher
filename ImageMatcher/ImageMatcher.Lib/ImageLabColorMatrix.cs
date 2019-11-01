@@ -1,13 +1,16 @@
 ﻿using Colourful;
+using ImageMagick;
 
 namespace ImageMatcher.Lib
 {
     public class ImageLabColorMatrix
     {
-        private LabColor[,] _data;
+        private readonly LabColor[,] _data;
 
         public ImageLabColorMatrix(int width, int height)
         {
+            Width = width;
+            Height = height;
             _data = new LabColor[width, height];
         }
 
@@ -17,5 +20,9 @@ namespace ImageMatcher.Lib
         }
 
         public LabColor this[int x, int y] => _data[x, y];
+
+        public int Width { get; }
+
+        public int Height { get; }
     }
 }

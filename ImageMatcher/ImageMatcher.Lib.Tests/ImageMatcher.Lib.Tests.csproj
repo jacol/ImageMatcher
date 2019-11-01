@@ -22,6 +22,42 @@
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </Content>
       <None Remove="obj\**" />
+      <None Remove="TestData\TestImage_2dots_different_color.png" />
+      <Content Include="TestData\TestImage_2dots_different_color.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="TestData\TestImage_4_dots_moved.png" />
+      <Content Include="TestData\TestImage_4_dots_moved.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="TestData\TestImage_4_more_red_dots.png" />
+      <Content Include="TestData\TestImage_4_more_red_dots.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="TestData\TestImage_inverted.png" />
+      <Content Include="TestData\TestImage_inverted.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="TestData\TestImage_black.png" />
+      <Content Include="TestData\TestImage_black.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="TestData\TestImage_white.png" />
+      <Content Include="TestData\TestImage_white.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="TestData\RealPhoto1.jpg" />
+      <Content Include="TestData\RealPhoto1.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="TestData\RealPhoto2.jpg" />
+      <Content Include="TestData\RealPhoto2.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="TestData\RealPhoto3.jpg" />
+      <Content Include="TestData\RealPhoto3.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
     </ItemGroup>
 
     <ItemGroup>

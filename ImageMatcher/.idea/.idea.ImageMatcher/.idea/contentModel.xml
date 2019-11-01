@@ -45,11 +45,18 @@
         <e p="ImageMatcher.Lib.Tests.csproj" t="IncludeRecursive" />
         <e p="ImageReaderTests.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
+        <e p="StrictMatcherStrategyTests.cs" t="Include" />
         <e p="TestData" t="Include">
+          <e p="RealPhoto1.jpg" t="Include" />
+          <e p="RealPhoto2.jpg" t="Include" />
+          <e p="RealPhoto3.jpg" t="Include" />
           <e p="TestImage.png" t="Include" />
           <e p="TestImage_2dots_different_color.png" t="Include" />
           <e p="TestImage_4_dots_moved.png" t="Include" />
           <e p="TestImage_4_more_red_dots.png" t="Include" />
+          <e p="TestImage_black.png" t="Include" />
+          <e p="TestImage_inverted.png" t="Include" />
+          <e p="TestImage_white.png" t="Include" />
         </e>
       </e>
       <e p="ImageMatcher.sln" t="IncludeFlat" />
