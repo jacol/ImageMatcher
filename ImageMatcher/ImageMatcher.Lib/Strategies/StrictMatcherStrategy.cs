@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace ImageMatcher.Lib.Strategies
 {
@@ -20,8 +21,9 @@ namespace ImageMatcher.Lib.Strategies
                 {
                     var color1 = colorMatrix1[x, y];
                     var color2 = colorMatrix2[x, y];
-
+                    
                     var result = ColorDifferenceAnalyzer.ComputeColorDifference(color1, color2);
+
                     if (result > 0.0d)
                     {
                         counter++;
